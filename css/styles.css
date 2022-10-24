@@ -264,11 +264,11 @@ background-color: var(--section-light-bg);
 /*footer*/
 .footer-fon{
   background-color: var(--section-dark-bg);
+ padding-top: 60px;
+ padding-bottom: 60px;
 }
-.footer-container {
-  width: 1600px;
-  padding: 60px 215px;
-  margin: 0 auto;
+.footer-address {
+
 }
 .footer-address-flex {
   display: flex;
@@ -281,6 +281,7 @@ background-color: var(--section-light-bg);
   font-size: 26px;
   line-height: 1.2;
   color: var(--white-color);
+
 }
 .footer-logo:hover {
   color: var(--white-color);
