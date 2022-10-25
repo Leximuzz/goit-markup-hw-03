@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
   color: var(--text-color);
- /* width: 2000px;*/
+
 }
 a {
   font-style: normal;
@@ -72,10 +72,6 @@ li {
 
 /*navigation*/
 
-.header-flex {
-  display: flex;
- 
-}
 .main-nav-flex {
  display: flex;
   align-items: center;
@@ -266,26 +262,23 @@ background-color: var(--section-light-bg);
 }
 
 /*footer*/
+
 .footer-fon{
   background-color: var(--section-dark-bg);
 padding-top: 60px;
 padding-bottom: 60px;
 }
-.footer-address {
+.footer-address{
+display: flex;
 
 }
-.footer-address-flex {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
+
 .footer-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--white-color);
-
 }
 .footer-logo:hover {
   color: var(--white-color);
@@ -299,21 +292,28 @@ padding-bottom: 60px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  
 }
 .address-link-footer:hover {
   color: var(--main-blue-color);
 }
 .footer-address-style {
   margin-top: 20px;
- /* width: 231px;*/
+ 
 }
 .footer-address-color {
   font-style: normal;
   color: var(--white-color);
 }
+.footer-margin{
+  margin-top: 9px;
+}
 
 /*page-portfolio*/
-
+.portfolio-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio-container {
   width: 1171px;
   margin: 94px auto;
@@ -322,8 +322,7 @@ padding-bottom: 60px;
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 94px;
-}
+ }
 .button-style {
   font-weight: 500;
   font-size: 16px;
@@ -366,19 +365,17 @@ padding-bottom: 60px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--address-color);
+  margin-top: 4px;
 }
 .portfolio-card-flex {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  margin-bottom: 94px;
   gap: 30px;
 }
 .portfolio-card {
   width: 370px;
-  height: 404px;
   background-color: var(--white-color);
-  border: 1px solid var(--card-border);
 }
 .portfolio-card-img-size{
   width: 100%;
@@ -388,5 +385,8 @@ padding-bottom: 60px;
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .card-description {
-  margin: 24px 20px;
+  padding: 24px 20px;
+  border-left: 1px solid var(--card-border);
+  border-right: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
 }
